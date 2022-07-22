@@ -1,4 +1,5 @@
 import {
+  faDev,
   faGithub,
   faHackerrank,
   faLinkedin,
@@ -28,9 +29,15 @@ export const SocialLinks = (): JSX.Element => {
         icon={faLinkedin}
       ></SocialLink>
       <SocialLink
+        href="https://dev.to/janhalama"
+        className="devto"
+        transitionDelay={0.5}
+        icon={faDev}
+      ></SocialLink>
+      <SocialLink
         href="https://www.hackerrank.com/jan_halama"
         className="hackerrank"
-        transitionDelay={0.5}
+        transitionDelay={0.6}
         icon={faHackerrank}
       ></SocialLink>
     </ul>
