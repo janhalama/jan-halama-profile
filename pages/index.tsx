@@ -125,7 +125,7 @@ const Home = ({ imageId }: HomePageProps) => {
           <div className="footer_bottom">
             <span>v3.0.0</span>
             <span>
-              Copyright © 2018.{' '}
+              Copyright © {new Date().getFullYear()}.{' '}
               <a
                 href="https://webthemez.com/free-bootstrap-templates/"
                 target="_blank"
