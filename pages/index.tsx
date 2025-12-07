@@ -104,10 +104,6 @@ const Home = ({ imageId }: HomePageProps) => {
               <div className="col-lg-4 wow fadeInLeft">
                 <div className="contact_info">
                   <div className="detail">
-                    <h4>Jan Halama</h4>
-                    <p>Krásná 76, Pěnčín 468 21, Czechia</p>
-                  </div>
-                  <div className="detail">
                     <h4>Call me</h4>
                     <p>+420 774 770 433</p>
                   </div>
